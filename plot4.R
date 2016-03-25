@@ -1,4 +1,5 @@
 library(data.table)
+# IMPORTANT IF YOU RUN THIS FILE FIRST, par() MUST BE RESET TO ORIGINAL WHEN RUNNING PREVIOUS FILES
 # 1- read first line to be the column names
 header<-read.table("hpc.txt",sep = ";",nrows = 3,header = TRUE)
 headnames<-names(header)
